@@ -1,0 +1,29 @@
+boolean operator
+    boolean operator are used to join more then one relational expression. there are 3 boolean operators. 
+    1 and (&&)
+    2 or  (||)
+    3 not (!)
+    when it is used?
+    for example 
+    let us assume 
+        a = 10
+        b = 20
+        c = 30
+    we have below expressions
+    a<b  b<c
+    at that time we have use any one boolean operator
+
+    1) a<b && b<c
+        1    1 = 1
+    2) a>b || b<c
+        0   1  = 1
+    3) a<b || b>c
+        1   0  = 1    
+
+    4) !(a==20 && b==30)
+        0   &&    0   = 0
+        !(0   &&    0)   = 1
+    5) !(a==10 || b==30)
+        1   ||  0   = 1
+        !(0   ||    1)   = 0
+    at that tim
