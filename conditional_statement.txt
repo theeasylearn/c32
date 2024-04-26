@@ -1,0 +1,30 @@
+what is condition statement?
+    statement(code) which execute conditionally is called condition statement. means code may or may not execute based upon some condition. to do this we use decision makeing statement.
+
+what is decision makeing statement?
+    code in which we check some condition which always return either true or false.
+
+what are the decision makeing statement.
+    1 if decision makeing
+    2 if else decision makeing
+    3 if elseif ladder decision makeing
+    4 switch decision makeing
+    5 nested if decision makeing
+
+1) if decision makeing
+    in this we check some condition using relational expression. if relational expression is true then code written inside {} pair will execute
+
+    syntax 
+    if(relational expression)
+    {
+        code...
+    }
+    example
+    int number;
+    printf("enter number");
+    scanf("%d",&number);
+    if(number==0) // < > <= >= == !=
+    {
+        printf("it is zero");
+    }
+    
