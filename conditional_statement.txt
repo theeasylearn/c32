@@ -27,4 +27,27 @@ what are the decision makeing statement.
     {
         printf("it is zero");
     }
-    
+
+ 2 if else decision makeing
+ in this we check some condition using relational expression. if relational expression is true then code written inside {} pair will execute. if relational expression is false then code written after else & inside {} will execute.
+    if(relational expression)
+    {
+         code...
+    }
+    else
+    {
+        code....
+    }
+
+    example 
+    int number
+    printf("\n enter number")
+    scanf("%d",&number)
+    if(number<0) // < > <= >= == !=
+    {
+        printf("it is negative number");
+    }
+    else 
+    {
+        printf("it is positive number");
+    }
