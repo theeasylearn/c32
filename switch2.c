@@ -7,7 +7,6 @@ void main()
 
     printf("enter a number : ");
     scanf("%d",&number);
-
     switch(number)
     {
         case 0:
@@ -54,5 +53,6 @@ void main()
             printf("invalid input");
             break;
 
+    
     }
 }

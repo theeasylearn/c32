@@ -51,3 +51,30 @@ what are the decision makeing statement.
     {
         printf("it is positive number");
     }
+
+
+4) if else if ladder decision makeing
+    in program when we need to check many relational expression in way that if 1st expession is true then code block given after that relational expession execute otherwise 2nd relational expession is check if it is true  code block given after that relational expession execute and so on. if all relational expession are false then code given after else  will execute. in above requirement we use else if ladder decision makeing.
+
+
+    syntax 
+    if(relational expession)
+    {
+        code.....
+    }
+    else if(relational expession)
+    {
+        code.....
+    }
+    else if(relational expession)
+    {
+        code.....
+    }
+    else if(relational expession)
+    {
+        code.....
+    }
+    else 
+    {
+        code... 
+    }
