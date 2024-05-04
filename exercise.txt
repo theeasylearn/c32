@@ -1,0 +1,4 @@
+1) write a program that print number squere
+1 - user
+
+ex. 1-10 => 1,4,9,16...100
